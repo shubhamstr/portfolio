@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="contact_form">
+        <form action="#">
+          <h2>Contact Me</h2>
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            id="name"
+            autocomplete="off"
+          />
+
+          <input
+            type="text"
+            placeholder="Email"
+            id="email"
+            name="email"
+            autocomplete="off"
+          />
+
+          <textarea placeholder="Message" rows="5" id="msg"></textarea>
+          <small id="Err"></small><br>
+          <input type="submit" value="SEND" onclick="return validate()" />
+        </form>
+      </div>
+    </div>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
