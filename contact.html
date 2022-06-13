@@ -21,7 +21,7 @@
         </header>
         <section>
           <div class="contact_form">
-            <form action="#">
+            <form action="submit_form.php" id="form_contact" method="post">
               <h2>Contact Me</h2>
               <input
                 type="text"
@@ -39,9 +39,9 @@
                 autocomplete="off"
               />
     
-              <textarea placeholder="Message" rows="5" id="msg"></textarea>
+              <textarea placeholder="Message" rows="5" id="msg" name="msg"></textarea>
               <small id="Err"></small><br>
-              <input type="submit" value="SEND" onclick="return validate()" />
+              <input type="submit" name="submit_form" value="SEND" onclick="return validate()" />
             </form>
           </div>
                 
