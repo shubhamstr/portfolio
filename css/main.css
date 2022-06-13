@@ -36,7 +36,7 @@ header .list a li:hover{
 section{
     margin: 0 auto;
     max-width:70%;
-    margin-top:150px; 
+    margin-top:20px; 
     display:flex;
     justify-content: space-around;
 }
@@ -101,6 +101,10 @@ section .button{
 }
 section div .button:hover{
     background:rgb(104, 103, 97);
+}
+
+.margin_top_150 {
+    margin-top:150px;
 }
 
 
