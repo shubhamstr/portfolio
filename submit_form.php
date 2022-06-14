@@ -4,10 +4,11 @@ if (isset($_POST['submit_form'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $msg = $_POST['msg'];
+    $url = $_POST['url'];
     $date = date('m/d/Y h:i:s a', time());
     // call to function
     wh_log($date . " --- " . $name . " ---- " . $email . " --- " . $msg);
-    header('location: index.html?contact=success');
+    header("location: $url?contact=success");
 }
 
 function wh_log($log_msg)

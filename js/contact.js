@@ -4,6 +4,8 @@ let msg = document.getElementById("msg");
 
 let Err = document.getElementById("Err");
 
+document.getElementById("url").value = window.location.href;
+
 function validate() {
   let msglen = msg.value.length;
   console.log(msglen);
