@@ -53,4 +53,5 @@ function validate() {
   } else {
     msgErr.innerHTML = "";
   }
+  // document.getElementById("form_contact").setAttribute("action","mailto:"+email);
 }
