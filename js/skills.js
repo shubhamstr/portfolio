@@ -51,5 +51,5 @@ getPercent.map((items) => {
   };
   let stop = setInterval(() => {
     progressBar();
-  }, 25);
+  }, 10);
 });
