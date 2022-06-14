@@ -54,4 +54,95 @@
     background: #34495e;
     transform: rotate(45deg) translateX(-60%);
   }
+  .skills_header{
+      position: fixed;
+      top:0;
+      width:100%;
+      text-align:right;
+      padding:20px;
+  }
+  .skills_header .list{
+      list-style-type: none;
+      padding-right:30px;
+  }
+  .skills_header .list a li{
+      display:inline;
+      padding:10px;
+      font-size:20px;
+      color:black;
+      font-weight: 600;
+  }
+  .skills_header .list a li:hover{
+      background:#acb3b9;
+      border-radius: 10px;
+  }
+  .skills_section{
+      margin: 0 auto;
+      max-width:70%;
+      margin-top:20px; 
+      display:flex;
+      justify-content: space-around;
+  }
+  .skills_section div h1{
+      font-weight:700;
+      font-size:50px;
+      padding:10px;
+  }
+  .skills_section div p{
+      font-size: 25px;
+      font-weight:700;
+      padding:10px;
+  }
+  .skills_section div p a:hover{
+      border-bottom:2px solid lightskyblue;
+  }
+  .skills_section div img{
+      width:200px;
+      height:250px;
+      border-top-right-radius: 20%;
+      border-bottom-left-radius: 20%;
+  }
+  .skills_section div .social a{  
+      padding:5px;
+  }
+  .skills_section div .social a i{
+      font-size: 30px;
+      color:white;
+      padding:30px;
+  }
+  .skills_section div .social a i:hover{
+      background:rgb(104, 103, 97);
+  }
+  .skills_section div.social a .fa-twitter{
+      background: rgb(150, 148, 228);
+      border-radius:50%;
+      padding:10px;
+  }
+  .skills_section div .social a .fa-github{
+      background: rgb(104, 102, 238);
+      border-radius:50%;
+      padding:10px;
+  }
+  .skills_section div .social a .fa-codepen{
+      background: rgb(32, 53, 47);
+      border-radius:50%;
+      padding:10px;
+  }
+  .skills_section div .social a .fa-linkedin-in{
+      background: rgb(80, 77, 241);
+      border-radius:50%;
+      padding:10px;
+  }
+  .skills_section .button{
+      background:rgb(143, 67, 214);
+      display:inline-block;
+      padding:8px;
+      border-radius:5px;
+      margin-top:20px;
+      color:white;
+      margin-left: 10px;;
+  }
+  .skills_section div .button:hover{
+      background:rgb(104, 103, 97);
+  }
   

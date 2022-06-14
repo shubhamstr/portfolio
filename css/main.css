@@ -11,86 +11,86 @@ a{
     max-width: 100%;
     margin:0 auto;
 }
-header{
+.index_header{
     position: fixed;
     top:0;
     width:100%;
     text-align:right;
     padding:20px;
 }
-header .list{
+.index_header .list{
     list-style-type: none;
     padding-right:30px;
 }
-header .list a li{
+.index_header .list a li{
     display:inline;
     padding:10px;
     font-size:20px;
     color:black;
     font-weight: 600;
 }
-header .list a li:hover{
+.index_header .list a li:hover{
     background:#acb3b9;
     border-radius: 10px;
 }
-section{
+.index_section{
     margin: 0 auto;
     max-width:70%;
     margin-top:20px; 
     display:flex;
     justify-content: space-around;
 }
-section div h1{
+.index_section div h1{
     font-weight:700;
     font-size:50px;
     padding:10px;
 }
-section div p{
+.index_section div p{
     font-size: 25px;
     font-weight:700;
     padding:10px;
 }
-section div p a:hover{
+.index_section div p a:hover{
     border-bottom:2px solid lightskyblue;
 }
-section div img{
+.index_section div img{
     width:200px;
     height:250px;
     border-top-right-radius: 20%;
     border-bottom-left-radius: 20%;
 }
-section div .social a{  
+.index_section div .social a{  
     padding:5px;
 }
-section div .social a i{
+.index_section div .social a i{
     font-size: 30px;
     color:white;
     padding:30px;
 }
-section div .social a i:hover{
+.index_section div .social a i:hover{
     background:rgb(104, 103, 97);
 }
-section div.social a .fa-twitter{
+.index_section div.social a .fa-twitter{
     background: rgb(150, 148, 228);
     border-radius:50%;
     padding:10px;
 }
-section div .social a .fa-github{
+.index_section div .social a .fa-github{
     background: rgb(104, 102, 238);
     border-radius:50%;
     padding:10px;
 }
-section div .social a .fa-codepen{
+.index_section div .social a .fa-codepen{
     background: rgb(32, 53, 47);
     border-radius:50%;
     padding:10px;
 }
-section div .social a .fa-linkedin-in{
+.index_section div .social a .fa-linkedin-in{
     background: rgb(80, 77, 241);
     border-radius:50%;
     padding:10px;
 }
-section .button{
+.index_section .button{
     background:rgb(143, 67, 214);
     display:inline-block;
     padding:8px;
@@ -99,7 +99,7 @@ section .button{
     color:white;
     margin-left: 10px;;
 }
-section div .button:hover{
+.index_section div .button:hover{
     background:rgb(104, 103, 97);
 }
 
@@ -111,25 +111,25 @@ section div .button:hover{
 /*responsive design css*/
 
 @media only screen and (max-width:900px){
-    section div h1{
+    .index_section div h1{
         font-size:40px;
     }
 }
 @media only screen and (max-width:750px){
-    header{
+    .index_header{
         position: relative; 
     }
-    section {
+    .index_section {
         display: block;
         margin-top:50px;
     }
-    section div h1{
+    .index_section div h1{
         font-size:30px;
     }
-    section div p{
+    .index_section div p{
         font-size:18px;
     }
-    section div img{
+    .index_section div img{
         padding-top:30px;
         width:100%;
         height:400px;
@@ -138,16 +138,16 @@ section div .button:hover{
 
 }
 @media only screen and (max-width:400px){
-    header .list a li{
+    .index_header .list a li{
         font-size: 16px;;
     }
-    section div .social a i{
+    .index_section div .social a i{
         font-size:18px;
     }
-    section{
+    .index_section{
         margin-top:20px; 
     }   
-    section div h1{
+    .index_section div h1{
         font-size:25px;
     }
 }
