@@ -2,24 +2,60 @@
 
 const arrData = [
   {
-    name: "web design",
+    name: "HTML",
     val: 90,
   },
   {
-    name: "web developer",
+    name: "CSS",
+    val: 90,
+  },
+  {
+    name: "JavaScript",
+    val: 70,
+  },
+  {
+    name: "Bootstrap",
+    val: 70,
+  },
+  {
+    name: "PHP",
+    val: 70,
+  },
+  {
+    name: "Laravel",
+    val: 50,
+  },
+  {
+    name: "React Js",
+    val: 50,
+  },
+  {
+    name: "Node Js",
     val: 40,
   },
   {
-    name: "graphice design",
-    val: 65,
-  },
-  {
-    name: "digital marketing",
+    name: "SQL",
     val: 80,
   },
   {
-    name: "javarscript",
-    val: 20,
+    name: "NoSQL",
+    val: 60,
+  },
+  {
+    name: "jQuery",
+    val: 80,
+  },
+  {
+    name: "Git",
+    val: 80,
+  },
+  {
+    name: "SASS",
+    val: 60,
+  },
+  {
+    name: "Jira",
+    val: 60,
   },
 ];
 
