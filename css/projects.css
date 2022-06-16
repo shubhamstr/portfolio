@@ -34,6 +34,36 @@
       background:#acb3b9;
       border-radius: 10px;
   }
+  .project_section {
+    margin-top: 100px;
+    width:100%;
+    display:flex;
+  }
+  .project_section .card1 {   
+    flex: 0 0 auto;
+    width: 32%;
+    padding:10px;
+    background: rgb(238, 206, 206);
+    margin:5px;
+    text-align: center;
+  }
+  .project_section .card1 h3 {  
+    padding:5px;
+    text-align:center;
+  }
+  .project_section .card1 p {  
+    padding:5px;
+    text-align:justify;
+  }
+  .project_section .card1 a {  
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #009CFF;
+    border-color: #009CFF;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5;
+  }
   /* responsive code*/
   @media only screen and (max-width: 500px) {
   }
