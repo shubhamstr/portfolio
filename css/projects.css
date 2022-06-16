@@ -1,72 +1,132 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .container {
-    max-width: 1000px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .project_header{
-      position: fixed;
-      top:0;
-      width:100%;
-      text-align:right;
-      padding:20px;
-  }
-  .project_header .list{
-      list-style-type: none;
-      padding-right:30px;
-  }
-  .project_header .list a li{
-      display:inline;
-      padding:10px;
-      font-size:20px;
-      color:black;
-      font-weight: 600;
-  }
-  .project_header .list a li:hover{
-      background:#acb3b9;
-      border-radius: 10px;
-  }
-  .project_section {
-    margin-top: 100px;
-    width:100%;
-    display:flex;
-  }
-  .project_section .card1 {   
-    flex: 0 0 auto;
-    width: 32%;
-    padding:10px;
-    background: rgb(238, 206, 206);
-    margin:5px;
-    text-align: center;
-  }
-  .project_section .card1 h3 {  
-    padding:5px;
-    text-align:center;
-  }
-  .project_section .card1 p {  
-    padding:5px;
-    text-align:justify;
-  }
-  .project_section .card1 a {  
-    color: #FFFFFF;
-    cursor: pointer;
-    background-color: #009CFF;
-    border-color: #009CFF;
-    text-align: center;
-    padding: 5px;
-    border-radius: 5;
-  }
-  /* responsive code*/
-  @media only screen and (max-width: 500px) {
-  }
-  @media only screen and (max-width: 400px) {
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project_header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+}
+.project_header .list {
+  list-style-type: none;
+  padding-right: 30px;
+}
+.project_header .list a li {
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.project_header .list a li:hover {
+  background: #acb3b9;
+  border-radius: 10px;
+}
+.project_section {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+}
+.project_section .card1 {
+  flex: 0 0 auto;
+  width: 32%;
+  padding: 10px;
+  background: rgb(238, 206, 206);
+  margin: 5px;
+  text-align: center;
+}
+.project_section .card1 h3 {
+  padding: 5px;
+  text-align: center;
+}
+.project_section .card1 p {
+  padding: 5px;
+  text-align: justify;
+}
+.project_section .card1 a {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #009cff;
+  border-color: #009cff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5;
+}
+
+#projects,
+#contact {
+  /* background-color: white; */
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects a {
+  text-align: center;
+  padding: 0;
+}
+
+#projects a:hover {
+  border-bottom: none;
+}
+
+#projects h2,
+.about h2,
+#contact h2 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 360px);
+  column-gap: 50px;
+  row-gap: 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px 0;
+  padding: 0 10px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  background-color: #c4c1c1;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project-tile img {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.project-tile p {
+  padding: 0;
+  margin: 25px 0;
+}
