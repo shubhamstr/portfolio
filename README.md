@@ -1,4 +1,4 @@
 # portfolio_live
 
 
-https://shubhamstr.github.io/live_portfolio/
+https://shubhamstr.github.io/portfolio/
