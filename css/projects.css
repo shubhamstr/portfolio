@@ -130,3 +130,9 @@
   padding: 0;
   margin: 25px 0;
 }
+
+@media only screen and (max-width:400px){
+  .project_header .list a li{
+      font-size: 16px;;
+  }
+}

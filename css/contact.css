@@ -110,4 +110,10 @@ small{
   input[type="submit"] {
     width: 40%;
   }
+  .contact_header .list a li{
+      font-size: 16px;;
+  }
+  .contact_form {
+    margin-top: 30%;
+  }
 }
