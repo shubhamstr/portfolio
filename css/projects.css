@@ -129,6 +129,12 @@
 .project-tile p {
   padding: 0;
   margin: 25px 0;
+  color:#000000ad;
+}
+
+.project-tile small {
+  padding: 0px 15px;
+  color:#7222c7ad;
 }
 
 @media only screen and (max-width:400px){
