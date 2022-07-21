@@ -17,6 +17,7 @@ a{
     width:100%;
     text-align:right;
     padding:20px;
+    background: aqua;
 }
 .index_header .list{
     list-style-type: none;

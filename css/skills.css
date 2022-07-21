@@ -60,6 +60,7 @@
       width:100%;
       text-align:right;
       padding:20px;
+      background: aqua;
   }
   .skills_header .list{
       list-style-type: none;

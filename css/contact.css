@@ -18,6 +18,7 @@
     width:100%;
     text-align:right;
     padding:20px;
+    background: aqua;
 }
 .contact_header .list{
     list-style-type: none;
@@ -33,6 +34,9 @@
 .contact_header .list a li:hover{
     background:#acb3b9;
     border-radius: 10px;
+}
+.contact_section {
+  padding: 50px 0;
 }
 .contact_form {
   margin: 10%;
