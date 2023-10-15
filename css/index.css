@@ -11,29 +11,6 @@ a{
     max-width: 100%;
     margin:0 auto;
 }
-.index_header{
-    position: fixed;
-    top:0;
-    width:100%;
-    text-align:right;
-    padding:20px;
-    background: aqua;
-}
-.index_header .list{
-    list-style-type: none;
-    padding-right:30px;
-}
-.index_header .list a li{
-    display:inline;
-    padding:10px;
-    font-size:20px;
-    color:black;
-    font-weight: 600;
-}
-.index_header .list a li:hover{
-    background:#acb3b9;
-    border-radius: 10px;
-}
 .index_section{
     margin: 0 auto;
     max-width:70%;
@@ -113,7 +90,7 @@ a{
     }
 }
 @media only screen and (max-width:750px){
-    .index_header{
+    .header{
         position: relative; 
     }
     .index_section {
@@ -135,9 +112,6 @@ a{
 
 }
 @media only screen and (max-width:400px){
-    .index_header .list a li{
-        font-size: 16px;;
-    }
     .index_section div .social a i{
         font-size:18px;
     }

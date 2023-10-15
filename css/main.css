@@ -18,3 +18,34 @@ a{
 body {
     background: #afdadb;
 }
+
+/* header */ 
+.header{
+    position: fixed;
+    top:0;
+    width:100%;
+    text-align:right;
+    padding:20px;
+    background: aqua;
+}
+.header .list{
+    list-style-type: none;
+    padding-right:30px;
+}
+.header .list li{
+    display:inline;
+    padding:10px;
+    font-size:20px;
+    color:black;
+    font-weight: 600;
+}
+.header .list li.active, .header .list li:hover{
+    background:#acb3b9;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:400px){
+    .header .list li{
+        font-size: 16px;;
+    }
+}

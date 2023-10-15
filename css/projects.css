@@ -4,36 +4,8 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 1000px;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.project_header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-align: right;
-  padding: 20px;
-  background: aqua;
-}
-.project_header .list {
-  list-style-type: none;
-  padding-right: 30px;
-}
-.project_header .list a li {
-  display: inline;
-  padding: 10px;
-  font-size: 20px;
-  color: black;
-  font-weight: 600;
-}
-.project_header .list a li:hover {
-  background: #acb3b9;
-  border-radius: 10px;
 }
 .project_section {
   margin-top: 100px;
@@ -140,11 +112,5 @@
 @media only screen and (max-width:500px){
   .projects-container {
     width: 100%;
-  }
-}
-
-@media only screen and (max-width:400px){
-  .project_header .list a li{
-      font-size: 16px;;
   }
 }

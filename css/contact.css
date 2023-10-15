@@ -4,36 +4,8 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 1000px;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contact_header{
-    position: fixed;
-    top:0;
-    width:100%;
-    text-align:right;
-    padding:20px;
-    background: aqua;
-}
-.contact_header .list{
-    list-style-type: none;
-    padding-right:30px;
-}
-.contact_header .list a li{
-    display:inline;
-    padding:10px;
-    font-size:20px;
-    color:black;
-    font-weight: 600;
-}
-.contact_header .list a li:hover{
-    background:#acb3b9;
-    border-radius: 10px;
 }
 .contact_section {
   padding: 50px 0;
@@ -113,9 +85,6 @@ small{
 @media only screen and (max-width: 400px) {
   input[type="submit"] {
     width: 40%;
-  }
-  .contact_header .list a li{
-      font-size: 16px;;
   }
   .contact_form {
     margin-top: 30%;

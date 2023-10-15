@@ -54,29 +54,6 @@
     background: #34495e;
     transform: rotate(45deg) translateX(-60%);
   }
-  .skills_header{
-      position: fixed;
-      top:0;
-      width:100%;
-      text-align:right;
-      padding:20px;
-      background: aqua;
-  }
-  .skills_header .list{
-      list-style-type: none;
-      padding-right:30px;
-  }
-  .skills_header .list a li{
-      display:inline;
-      padding:10px;
-      font-size:20px;
-      color:black;
-      font-weight: 600;
-  }
-  .skills_header .list a li:hover{
-      background:#acb3b9;
-      border-radius: 10px;
-  }
   .skills_section{
       margin: 0 auto;
       max-width:70%;
@@ -146,9 +123,3 @@
   .skills_section div .button:hover{
       background:rgb(104, 103, 97);
   }
-  
-@media only screen and (max-width:400px){
-    .skills_header .list a li{
-        font-size: 16px;;
-    }
-}
