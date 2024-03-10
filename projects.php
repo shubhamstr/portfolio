@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include('includes/head.php') ?>
-  <body>
+<?php include('includes/head.php') ?>
+
+<body>
     <div class="container">
-      <header-ele data-page="projects.php"></header-ele>
-      <section id="projects">
-        <h3>Coming soon..</h3>
-      </section>
-      <!-- <section id="projects">
+        <header-ele data-page="projects.php"></header-ele>
+        <section id="projects">
+            <h3>Coming soon..</h3>
+        </section>
+        <!-- <section id="projects">
         <h3>Recent Projects</h3>
         <div class="projects-container">
           <div class="project-tile">
@@ -65,6 +66,7 @@
         </div>
       </section> -->
     </div>
-    <script src="assets/js/projects.js"></script>
-  </body>
+    <?php include('includes/scripts.php') ?>
+</body>
+
 </html>
