@@ -13,7 +13,7 @@ if (isset($_POST['submit_form'])) {
 
 function wh_log($log_msg)
 {
-    $logs_folder = "logs";
+    $logs_folder = "../logs";
     if (!file_exists($logs_folder)) {
         // create directory/folder uploads.
         mkdir($logs_folder, 0777, true);
