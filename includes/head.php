@@ -10,5 +10,5 @@
     <link rel="stylesheet" href="assets/css/projects.css" />
     <link rel="stylesheet" href="assets/css/contact.css" />
     <title>Portfolio Site</title>
-    <script defer src="assets/js/Header.js"></script>
+    <script defer src="web_components/Header.js"></script>
 </head>
