@@ -3,13 +3,13 @@ let section = document.querySelector('#projects');
 let arr = [
     {
         projectLink: 'https://first-react-todo-list.herokuapp.com/',
-        projectImage: 'images/todolist.png',
+        projectImage: 'assets/images/todolist.png',
         projectTitle: 'ToDo List',
         projectDescription: 'This is react based TODO list. User can add, edit, delete. The tasks are saved in localstorage.'
     },
     {
         projectLink: 'https://first-socketio-chat.herokuapp.com/',
-        projectImage: 'images/chat.png',
+        projectImage: 'assets/images/chat.png',
         projectTitle: 'Realtime Chat App',
         projectDescription: 'This is nodejs Realtime Chatting App. Created using NodeJs, Express, Socket io, etc. Multiple users can chat with together.'
     }
