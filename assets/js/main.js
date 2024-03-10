@@ -6,7 +6,10 @@ let msg = document.getElementById("msg")
 
 let Err = document.getElementById("Err")
 
-document.getElementById("url").value = window.location.href
+let url = document.getElementById("url")
+if (url) {
+  url.value = window.location.href
+}
 
 function validate() {
   let msglen = msg.value.length
@@ -60,18 +63,18 @@ function validate() {
 
 // projects page
 
-let section = document.querySelector("#projects")
+let section = document.querySelector("#projects");
 
 let arr = [
   {
-    projectLink: "https://first-react-todo-list.herokuapp.com/",
+    projectLink: "https://codeguest-todolist.netlify.app/",
     projectImage: "assets/images/todolist.png",
     projectTitle: "ToDo List",
     projectDescription:
       "This is react based TODO list. User can add, edit, delete. The tasks are saved in localstorage.",
   },
   {
-    projectLink: "https://first-socketio-chat.herokuapp.com/",
+    projectLink: "https://codeguest-socket-chat.onrender.com/",
     projectImage: "assets/images/chat.png",
     projectTitle: "Realtime Chat App",
     projectDescription:
@@ -82,8 +85,10 @@ let arr = [
 let title = document.createElement("h3")
 title.innerHTML = "Recent Projects"
 
-section.innerHTML = ""
-section.appendChild(title)
+if (section) {
+    section.innerHTML = "";
+    section.appendChild(title);
+}
 
 let container = document.createElement("div")
 container.classList.add("projects-container")
@@ -104,7 +109,9 @@ arr.map((el) => {
 })
 container.innerHTML = markup
 
-section.appendChild(container)
+if (section) {
+    section.appendChild(container);
+}
 
 // skills page
 
@@ -169,7 +176,7 @@ const arrData = [
 
 var html = ""
 arrData.map((el) => {
-  console.log(el.name, "-", el.val)
+//   console.log(el.name, "-", el.val)
   html +=
     '<div class="progress"> <div class="title"> <h4>' +
     el.name +
@@ -177,8 +184,13 @@ arrData.map((el) => {
     el.val +
     '"></div></div></div>'
 })
-console.log(html)
-document.getElementById("main").innerHTML = html
+// console.log(html)
+
+
+let main = document.getElementById("main");
+if (main) {
+    main.innerHTML = html
+}
 
 let numberPercent = document.querySelectorAll(".countbar")
 let getPercent = Array.from(numberPercent)
