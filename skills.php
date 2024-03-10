@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <header-ele data-page="skills.html"></header-ele>
+      <header-ele data-page="skills.php"></header-ele>
       <section class="skills_section">
         <div class="main" id="main"></div>
       </section>

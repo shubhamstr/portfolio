@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <header-ele data-page="projects.html"></header-ele>
+      <header-ele data-page="projects.php"></header-ele>
       <section id="projects">
         <h3>Coming soon..</h3>
       </section>

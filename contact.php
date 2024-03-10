@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <header-ele data-page="contact.html"></header-ele>
+      <header-ele data-page="contact.php"></header-ele>
       <section class="contact_section">
         <div class="contact_form">
           <form action="server/contact.php" id="form_contact" method="post">

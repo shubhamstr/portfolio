@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="container">
-      <header-ele data-page="index.html"></header-ele>
+      <header-ele data-page="index.php"></header-ele>
       <section class="index_section">
         <div class="details margin_top_150">
           <h1>Hello,<br />My name is Shubham Sutar</h1>
