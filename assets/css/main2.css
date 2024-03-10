@@ -1,0 +1,29 @@
+/* social icons */
+
+.social a i {
+  font-size: 30px;
+  color: white;
+}
+.social a i:hover {
+  background: rgb(104, 103, 97);
+}
+.social a .fa-twitter {
+  background: rgb(150, 148, 228);
+}
+.social a .fa-github {
+  background: rgb(104, 102, 238);
+}
+.social a .fa-codepen {
+  background: rgb(32, 53, 47);
+}
+.social a .fa-linkedin-in {
+  background: rgb(80, 77, 241);
+}
+
+
+/* index img */
+
+.lapee_img {
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
