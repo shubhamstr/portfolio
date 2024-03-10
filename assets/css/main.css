@@ -19,7 +19,8 @@ a {
 }
 
 body {
-  background: #afdadb;
+  /* background: #fafafa; */
+  background: #e9e9e9;
 }
 
 /* header */
@@ -29,7 +30,7 @@ body {
   width: 100%;
   text-align: right;
   padding: 20px;
-  background: aqua;
+  background: #ffffff;
 }
 .header .list {
   list-style-type: none;
