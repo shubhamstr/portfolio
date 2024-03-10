@@ -1,51 +1,484 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-a{
-    text-decoration: none;   
+
+a {
+  text-decoration: none;
 }
-.container{
-    max-width: 100%;
-    margin:0 auto;
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .margin_top_150 {
-    margin-top:150px;
+  margin-top: 150px;
 }
+
 body {
-    background: #afdadb;
+  background: #afdadb;
 }
 
-/* header */ 
-.header{
-    position: fixed;
-    top:0;
-    width:100%;
-    text-align:right;
-    padding:20px;
-    background: aqua;
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  background: aqua;
 }
-.header .list{
-    list-style-type: none;
-    padding-right:30px;
+.header .list {
+  list-style-type: none;
+  padding-right: 30px;
 }
-.header .list li{
-    display:inline;
-    padding:10px;
-    font-size:20px;
-    color:black;
-    font-weight: 600;
+.header .list li {
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
 }
-.header .list li.active, .header .list li:hover{
-    background:#acb3b9;
-    border-radius: 10px;
+.header .list li.active,
+.header .list li:hover {
+  background: #acb3b9;
+  border-radius: 10px;
 }
 
-@media only screen and (max-width:400px){
-    .header .list li{
-        font-size: 16px;;
-    }
+@media only screen and (max-width: 400px) {
+  .header .list li {
+    font-size: 16px;
+  }
+}
+
+/* contact page */
+
+.contact_section {
+  padding: 50px 0;
+}
+.contact_form {
+  margin: 10%;
+  /* width: 60%; */
+  height: 60%;
+  background-color: rgb(187 187 217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 8px;
+}
+form {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: Black;
+  display: block;
+  padding: 0.5rem 0;
+}
+input {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid rgb(136, 107, 107);
+  padding: 0.8rem;
+  outline: none;
+  margin-top: 1.5rem;
+}
+input:focus {
+  background: #fff;
+}
+textarea {
+  width: 100%;
+  border: 1px solid rgb(136, 107, 107);
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 2px;
+  margin-top: 1.5rem;
+  resize: vertical;
+}
+input[type="submit"] {
+  background: rgb(91, 91, 224);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 30%;
+  margin-top: 2.5rem;
+}
+small {
+  color: red;
+  font-size: 15px;
+}
+/* responsive code*/
+@media only screen and (max-width: 500px) {
+  .contact_form {
+    width: 80%;
+  }
+  form {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  input[type="submit"] {
+    width: 40%;
+  }
+  .contact_form {
+    margin-top: 30%;
+  }
+}
+
+/* index page */
+
+.index_section {
+  margin: 0 auto;
+  max-width: 70%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.index_section div h1 {
+  font-weight: 700;
+  font-size: 50px;
+  padding: 10px;
+}
+.index_section div p {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+}
+.index_section div p a:hover {
+  border-bottom: 2px solid lightskyblue;
+}
+.index_section div img {
+  width: 200px;
+  height: 250px;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+.index_section div .social a {
+  padding: 5px;
+}
+.index_section div .social a i {
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+}
+.index_section div .social a i:hover {
+  background: rgb(104, 103, 97);
+}
+.index_section div.social a .fa-twitter {
+  background: rgb(150, 148, 228);
+  border-radius: 50%;
+  padding: 10px;
+}
+.index_section div .social a .fa-github {
+  background: rgb(104, 102, 238);
+  border-radius: 50%;
+  padding: 10px;
+}
+.index_section div .social a .fa-codepen {
+  background: rgb(32, 53, 47);
+  border-radius: 50%;
+  padding: 10px;
+}
+.index_section div .social a .fa-linkedin-in {
+  background: rgb(80, 77, 241);
+  border-radius: 50%;
+  padding: 10px;
+}
+.index_section .button {
+  background: rgb(143, 67, 214);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  margin-left: 10px;
+}
+.index_section div .button:hover {
+  background: rgb(104, 103, 97);
+}
+
+/*responsive design css*/
+
+@media only screen and (max-width: 900px) {
+  .index_section div h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .header {
+    position: relative;
+  }
+  .index_section {
+    display: block;
+    margin-top: 50px;
+  }
+  .index_section div h1 {
+    font-size: 30px;
+  }
+  .index_section div p {
+    font-size: 18px;
+  }
+  .index_section div img {
+    padding-top: 30px;
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .index_section div .social a i {
+    font-size: 18px;
+  }
+  .index_section {
+    margin-top: 20px;
+  }
+  .index_section div h1 {
+    font-size: 25px;
+  }
+}
+
+/* projects page */
+
+.project_section {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+}
+.project_section .card1 {
+  flex: 0 0 auto;
+  width: 32%;
+  padding: 10px;
+  background: rgb(238, 206, 206);
+  margin: 5px;
+  text-align: center;
+}
+.project_section .card1 h3 {
+  padding: 5px;
+  text-align: center;
+}
+.project_section .card1 p {
+  padding: 5px;
+  text-align: justify;
+}
+.project_section .card1 a {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #009cff;
+  border-color: #009cff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5;
+}
+
+#projects,
+#contact {
+  /* background-color: white; */
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects a {
+  text-align: center;
+  padding: 0;
+}
+
+#projects a:hover {
+  border-bottom: none;
+}
+
+#projects h2,
+.about h2,
+#contact h2 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  max-width: 1200px;
+  margin: 50px 0;
+  padding: 0 10px;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  background-color: #c4c1c1;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.project-tile img {
+  height: 10%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.project-tile p {
+  padding: 0;
+  margin: 25px 0;
+  color: #000000ad;
+}
+
+.project-tile small {
+  padding: 0px 15px;
+  color: #7222c7ad;
+}
+
+@media only screen and (max-width: 500px) {
+  .projects-container {
+    width: 100%;
+  }
+}
+
+/* skills page */
+.main {
+  margin-top: 50px;
+  width: 80%;
+}
+.progress {
+  margin: 25px 0;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.title h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.barline {
+  height: 12px;
+  background: #c8d6e5;
+  border-radius: 20px;
+}
+
+.countbar {
+  height: 12px;
+  background: #5f27cd;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+.countbar h3 {
+  position: absolute;
+  right: -19px;
+  top: -35px;
+  background: #34495e;
+  color: white;
+  padding: 4px 6px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.countbar h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 11px;
+  height: 11px;
+  background: #34495e;
+  transform: rotate(45deg) translateX(-60%);
+}
+.skills_section {
+  margin: 0 auto;
+  max-width: 70%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.skills_section div h1 {
+  font-weight: 700;
+  font-size: 50px;
+  padding: 10px;
+}
+.skills_section div p {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+}
+.skills_section div p a:hover {
+  border-bottom: 2px solid lightskyblue;
+}
+.skills_section div img {
+  width: 200px;
+  height: 250px;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+.skills_section div .social a {
+  padding: 5px;
+}
+.skills_section div .social a i {
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+}
+.skills_section div .social a i:hover {
+  background: rgb(104, 103, 97);
+}
+.skills_section div.social a .fa-twitter {
+  background: rgb(150, 148, 228);
+  border-radius: 50%;
+  padding: 10px;
+}
+.skills_section div .social a .fa-github {
+  background: rgb(104, 102, 238);
+  border-radius: 50%;
+  padding: 10px;
+}
+.skills_section div .social a .fa-codepen {
+  background: rgb(32, 53, 47);
+  border-radius: 50%;
+  padding: 10px;
+}
+.skills_section div .social a .fa-linkedin-in {
+  background: rgb(80, 77, 241);
+  border-radius: 50%;
+  padding: 10px;
+}
+.skills_section .button {
+  background: rgb(143, 67, 214);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  margin-left: 10px;
+}
+.skills_section div .button:hover {
+  background: rgb(104, 103, 97);
 }
