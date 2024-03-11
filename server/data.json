@@ -10,26 +10,34 @@
     },
     {
       "name": "JavaScript",
-      "val": 70
+      "val": 80
     },
     {
       "name": "Bootstrap",
-      "val": 70
+      "val": 80
     },
     {
       "name": "PHP",
-      "val": 70
+      "val": 80
     },
     {
       "name": "Laravel",
-      "val": 50
+      "val": 70
     },
     {
       "name": "React Js",
-      "val": 50
+      "val": 85
     },
     {
       "name": "Node Js",
+      "val": 75
+    },
+    {
+      "name": "React Native",
+      "val": 60
+    },
+    {
+      "name": "Angular",
       "val": 40
     },
     {
@@ -38,7 +46,7 @@
     },
     {
       "name": "NoSQL",
-      "val": 60
+      "val": 50
     },
     {
       "name": "jQuery",
@@ -55,6 +63,10 @@
     {
       "name": "Jira",
       "val": 60
+    },
+    {
+      "name": "CodeIgniter",
+      "val": 50
     }
   ]
 }
