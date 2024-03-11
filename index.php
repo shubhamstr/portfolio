@@ -16,7 +16,7 @@
                                 I'm a Full Stack Web Developer lives in Pune, India.<br />
                                 I make Website, usually with JavaScript, PHP, React Js,<br /> Bootstrap. Feel free
                                 to take a look at my latest
-                                <a href="projects.php" class="text-decoration-none">projects.</a><br />connect me at:
+                                <a href="projects.php" target="_blank" class="text-decoration-none">projects.</a><br />connect me at:
                             </p>
                             <div class="my-3 social">
                                 <a href="https://github.com/shubhamstr" target="_blank" class="p-1 text-decoration-none">
@@ -32,9 +32,12 @@
                                     <i class="fab fa-linkedin-in p-2 rounded-circle"></i>
                                 </a>
                             </div>
-                            <a class="text-decoration-none btn btn-primary btn-sm"
+                            <!-- <a class="text-decoration-none btn btn-primary btn-sm"  target="_blank"
                                 href="https://drive.google.com/uc?export=download&id=1NQKhFxoJMWBMQonjX0fG4qZktYwjvNtZ7GZQWpIb0-4">Download
-                                My Resume</a>
+                                Resume</a> -->
+                            <a class="text-decoration-none btn btn-primary btn-sm"
+                                href="./assets/files/Shubham Sutar.pdf" target="_blank">View
+                                Resume</a>
                         </div>
                         <div class="col-3">
                             <img src="assets/images/lapee.jpg" alt="lapee" class="w-100 lapee_img" />
