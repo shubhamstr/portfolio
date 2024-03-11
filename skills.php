@@ -15,16 +15,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index2.php">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="skills2.php">Skills</a>
+                            <a class="nav-link active" aria-current="page" href="skills.php">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="projects2.php">Projects</a>
+                            <a class="nav-link" aria-current="page" href="projects.php">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="contact2.php">Contact</a>
+                            <a class="nav-link" aria-current="page" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
