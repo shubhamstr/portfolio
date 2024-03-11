@@ -1,8 +1,8 @@
 // contact page
 
-let name = document.getElementById("name")
-let email = document.getElementById("email")
-let msg = document.getElementById("msg")
+let name = document.getElementById("exampleInputName")
+let email = document.getElementById("exampleInputEmail")
+let msg = document.getElementById("exampleInputMessage")
 
 let Err = document.getElementById("Err")
 
