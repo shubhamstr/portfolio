@@ -63,7 +63,7 @@ function validate() {
 
 // projects page
 
-let section = document.querySelector("#projects");
+let section = document.querySelector("#projects")
 
 let arr = [
   {
@@ -82,35 +82,29 @@ let arr = [
   },
 ]
 
-let title = document.createElement("h3")
-title.innerHTML = "Recent Projects"
+let row = document.createElement("div")
+row.classList.add("row")
+row.classList.add("w-100")
 
-if (section) {
-    section.innerHTML = "";
-    section.appendChild(title);
-}
-
-let container = document.createElement("div")
-container.classList.add("projects-container")
-
-let markup = ``
+let cols = ``
 arr.map((el) => {
-  markup += `
-            <div class="project-tile">
-                <a target="_blank" href="${el.projectLink}">
-                <img
-                    src="${el.projectImage}"
-                />
-                <p>${el.projectTitle}</p>
-                <small>${el.projectDescription}</small>
-                </a>
+  cols += `
+            <div class="col-6 px-2">
+                <div class="card" style="width: 100%;">
+                    <img src="${el.projectImage}" class="card-img-top" alt="..."
+                        style="height:300px">
+                    <div class="card-body">
+                      <a target="_blank" href="${el.projectLink}"><h5 class="card-title">${el.projectTitle}</h5></a>
+                        <p class="card-text">${el.projectDescription}</p>
+                    </div>
+                </div>
             </div>
             `
 })
-container.innerHTML = markup
+row.innerHTML = cols
 
 if (section) {
-    section.appendChild(container);
+  section.appendChild(row)
 }
 
 // skills page
@@ -176,7 +170,7 @@ const arrData = [
 
 var html = ""
 arrData.map((el) => {
-//   console.log(el.name, "-", el.val)
+  //   console.log(el.name, "-", el.val)
   html +=
     '<div class="custom_progress"> <div class="title"> <h4>' +
     el.name +
@@ -186,10 +180,9 @@ arrData.map((el) => {
 })
 // console.log(html)
 
-
-let main = document.getElementById("main");
+let main = document.getElementById("main")
 if (main) {
-    main.innerHTML = html
+  main.innerHTML = html
 }
 
 let numberPercent = document.querySelectorAll(".countbar")
