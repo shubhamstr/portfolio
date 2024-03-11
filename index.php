@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head2.php'?>
+<?php include 'includes/head.php'?>
 
 <body class="vh-100">
     <div class="container-fluid px-0 h-100">
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-    <?php include 'includes/scripts2.php'?>
+    <?php include 'includes/scripts.php'?>
 </body>
 
 </html>
