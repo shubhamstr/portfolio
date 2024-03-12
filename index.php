@@ -8,9 +8,9 @@
 
         <div class="container h-75">
             <div class="row h-100">
-                <div class="col-10 offset-1 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-10 offset-md-1 d-flex align-items-center justify-content-center">
                     <div class="row px-5">
-                        <div class="col-9">
+                        <div class="col-12 col-md-7 col-lg-9 mt-5 mt-md-0">
                             <h2 class="fw-bold">Hello,<br />My name is Shubham Sutar</h2>
                             <p>
                                 I'm a Full Stack Web Developer lives in Pune, India.<br />
@@ -39,7 +39,7 @@
                                 href="./assets/files/Shubham Sutar.pdf" target="_blank">View
                                 Resume</a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-md-5 col-lg-3 mt-5 mt-md-0">
                             <img src="assets/images/lapee.jpg" alt="lapee" class="w-100 lapee_img" />
                         </div>
                     </div>
