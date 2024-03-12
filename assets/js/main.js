@@ -85,11 +85,12 @@ let arr = [
 let row = document.createElement("div")
 row.classList.add("row")
 row.classList.add("w-100")
+row.classList.add("mx-0")
 
 let cols = ``
 arr.map((el) => {
   cols += `
-            <div class="col-6 px-2">
+            <div class="col-12 col-md-6 px-2 mt-5">
                 <div class="card" style="width: 100%;">
                     <img src="${el.projectImage}" class="card-img-top" alt="..."
                         style="height:300px">

@@ -9,10 +9,9 @@
 
         <div class="container h-75">
             <div class="row h-100">
-                <div class="col-10 offset-1 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-10 offset-md-1 d-flex align-items-center justify-content-center">
                     <section id="projects" class="w-100">
                     </section>
-                    
                 </div>
 
             </div>
