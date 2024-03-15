@@ -120,6 +120,9 @@ fetch("server/data.json")
       html +=
         '<div class="custom_progress"> <div class="title"> <h4>' +
         el.name +
+        " (" +
+        el.type +
+        ")" +
         '</h4> </div><div class="barline"> <div class="countbar" data-percentNumber="' +
         el.val +
         '"></div></div></div>'

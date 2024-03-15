@@ -2,71 +2,93 @@
   "skillsData": [
     {
       "name": "HTML",
-      "val": 90
+      "val": 90,
+      "type": "Markup Language"
     },
     {
       "name": "CSS",
-      "val": 90
+      "val": 90,
+      "type": "Style Sheet Language"
     },
     {
       "name": "JavaScript",
-      "val": 80
+      "val": 80,
+      "type": "Programming Language"
     },
     {
       "name": "Bootstrap",
-      "val": 80
+      "val": 80,
+      "type": "CSS Framework"
     },
     {
       "name": "PHP",
-      "val": 80
-    },
-    {
-      "name": "Laravel",
-      "val": 70
-    },
-    {
-      "name": "React Js",
-      "val": 85
+      "val": 80,
+      "type": "Server Side Scripting Language"
     },
     {
       "name": "Node Js",
-      "val": 75
+      "val": 75,
+      "type": "Server Side Scripting Language"
     },
     {
-      "name": "React Native",
-      "val": 60
-    },
-    {
-      "name": "Angular",
-      "val": 40
-    },
-    {
-      "name": "SQL",
-      "val": 80
-    },
-    {
-      "name": "NoSQL",
-      "val": 50
-    },
-    {
-      "name": "jQuery",
-      "val": 80
-    },
-    {
-      "name": "Git",
-      "val": 80
-    },
-    {
-      "name": "SASS",
-      "val": 60
-    },
-    {
-      "name": "Jira",
-      "val": 60
+      "name": "Laravel",
+      "val": 70,
+      "type": "PHP Framework"
     },
     {
       "name": "CodeIgniter",
-      "val": 50
+      "val": 50,
+      "type": "PHP Framework"
+    },
+    {
+      "name": "jQuery",
+      "val": 80,
+      "type": "JavaScript Library"
+    },
+    {
+      "name": "React Js",
+      "val": 85,
+      "type": "JavaScript Library"
+    },
+    {
+      "name": "React Native",
+      "val": 60,
+      "type": "JavaScript Mobile App Framework"
+    },
+    {
+      "name": "Angular",
+      "val": 40,
+      "type": "TypeScript/JavaScript Framework"
+    },
+    {
+      "name": "SQL",
+      "val": 80,
+      "type": "Query Language"
+    },
+    {
+      "name": "MySQL",
+      "val": 50,
+      "type": "Relational Database"
+    },
+    {
+      "name": "MongoDB",
+      "val": 50,
+      "type": "Non Relational Database"
+    },
+    {
+      "name": "Git",
+      "val": 80,
+      "type": "Version Control System"
+    },
+    {
+      "name": "SASS",
+      "val": 60,
+      "type": "Preprocessor Scripting Language"
+    },
+    {
+      "name": "Jira",
+      "val": 60,
+      "type": "Project Management Tool"
     }
   ]
 }
