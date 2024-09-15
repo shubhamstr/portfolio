@@ -20,7 +20,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
+          TARGET: /home/${{ secrets.REMOTE_USER }}/deploy-portfolio
 
       - name: Executing remote ssh commands using ssh key
         uses: appleboy/ssh-action@master
@@ -34,5 +34,5 @@ jobs:
             # sudo apt-get install -y apache2
             # sudo systemctl start apache2
             # sudo systemctl enable apache2
-            # cd home
-            # sudo mv * /var/www/html
+            cd /home/${{ secrets.REMOTE_USER }}/deploy-portfolio
+            sudo mv -f * /var/www/html/portfolio
