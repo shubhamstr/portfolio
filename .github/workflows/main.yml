@@ -37,4 +37,4 @@ jobs:
             # sudo systemctl start apache2
             # sudo systemctl enable apache2
             cd /home/ubuntu/deploy-portfolio
-            sudo mv -f * /var/www/html/portfolio
+            sudo mv -fT * /var/www/html/portfolio
